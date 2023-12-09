@@ -1,7 +1,46 @@
+CS 6314.002 Final Project
+
+Ishwari Joshi (IGJ180000)
+Shivani Talatam (SXT220047)
+Manvitha Tangella (MXT220006)
+Lokeswari Sonti (LXS220004)
+Mohan Sai Reddy Mummasani (MXM220028)
+
+This is a grocery store management system. The grocery store is named Pantry Plus. 
+
+To run the project code:
+-- Connect to MongoDB Compass using localhost:27017.
+-- Create a MongoDB database named "Grocery" with a collection name "items". 
+   Another collection called accounts will get created in Grocery as users register to the website.
+-- Import the grocery.json file into the items collection.
+-- Use the cd command to move to the directory containing the project code. 
+-- Run the command nodemon app.js.
+    -- If this results in "Error: Cannot find module 'xxx'", run command npm install xxx
+       and re-run command nodemon app.js. 
+-- Open a web browser (e.g. Google Chrome) and go to localhost:3000.
+-- From there, you can begin using the website.
+
 Notes:
-
--- The MongoDB database name is Grocery and the collection name is items. Another collection called accounts gets created in Grocery as users register to the website.
-
--- The grocery.json file must be imported into the items collection. 
-
 -- The user registered with username "admin" is the admin. They can create, update, and delete items. 
+
+-- Once a user checkouts, the quantity field in the items collection will be updated. 
+For example, if the user buys 5 bags of Sugar, the quantity field for the document with name field Sugar will decrease by 5 in MongoDB.
+
+Project Functionalities:
+-- User signup: Register a new user to the system.
+    -- Check the new username or email address if it’s already registered to the system using AJAX.
+    -- Form validation: Check if all mandatory fields are filled out.
+    -- Check if password is strong enough. A strong password is defined to be at least 8 characters long and 
+       must contain at least 1 uppercase letter, 1 lowercase letter, 1 digit, and 1 special character in !@#$%^&*.?
+       User passwords are salted and hashed with both the salt and hash stored in the database.
+-- User login.
+-- Session Management.
+-- CRUD operations
+    -- A Database item is associated with an image. Images are contained in the public/images folder.
+    -- Create items (admin only) – Adding new items to the inventory.
+    -- Read items – Fetch records from database in the form of JSON and render them on page.
+    -- Update items – Update the stock count based on transactions and admin can modify anything about the item (e.g. description, price). 
+    -- Delete items (admin only) – Deleting an item from the inventory.
+-- Search and Filter capabili6es.
+-- Responsive applica6on that adapts to various devices and screen sizes.
+-- Add items to cart as you browse and checkout at the end.
