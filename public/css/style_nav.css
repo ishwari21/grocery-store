@@ -1,0 +1,23 @@
+nav {
+    background-color: tan;
+}
+
+.navbar .h1 {
+    font-size: 36px;
+    padding-left: 15px;
+}
+
+.navbar .collapse a {
+    font-size: large;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding-right: 20px; 
+}
+
+.nav button {
+    font-size: large;
+}

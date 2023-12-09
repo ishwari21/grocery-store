@@ -1,0 +1,498 @@
+ [
+      {
+        "name": "Bread",
+        "description": "Freshly baked white bread",
+	"type": "Bakery",
+	"qty": 50,
+        "price": "$2.49",
+        "unit": "per loaf",
+        "image": "images/bakery/bread.jpg"
+      },
+      {
+        "name": "Croissants",
+        "description": "Flaky and buttery croissants",
+        "type": "Bakery",
+	"qty": 40,
+        "price": "$3.99",
+        "unit": "per pack",
+        "image": "images/bakery/croissants.jpg"
+      },
+      {
+        "name": "Bagels",
+        "description": "Assorted bagels",
+	"type": "Bakery",
+	"qty": 50,
+        "price": "$2.99",
+        "unit": "per pack",
+        "image": "images/bakery/bagels.jpg"
+      },
+      {
+        "name": "Cakes",
+        "description": "Delicious cakes for special occasions",
+	"type": "Bakery",
+	"qty": 45,
+        "price": "$15.99",
+        "unit": "per cake",
+        "image": "images/bakery/cakes.jpg"
+      },
+      {
+        "name": "Flour",
+        "description": "All-purpose flour",
+	"type": "Baking Supplies",
+	"qty": 75,
+        "price": "$2.49",
+        "unit": "per bag",
+        "image": "images/baking/flour.jpg"
+      },
+      {
+	"name": "Sugar",
+        "description": "Granulated sugar",
+	"type": "Baking Supplies",
+	"qty": 50,
+        "price": "$1.99",
+        "unit": "per bag",
+        "image": "images/baking/sugar.jpg"
+      },
+      {
+	"name": "Baking Powder",
+        "description": "Double-acting baking powder",
+	"type": "Baking Supplies",
+	"qty": 60,
+        "price": "$3.99",
+        "unit": "per can",
+        "image": "images/baking/baking_powder.jpg"
+      },
+      {
+	"name": "Chocolate Chips",
+        "description": "Semi-sweet chocolate chips",
+	"type": "Baking Supplies",
+	"qty": 85,
+        "price": "$4.49",
+        "unit": "per bag",
+        "image": "images/baking/chocolate_chips.jpg"
+      },
+      {
+	"name": "Water",
+        "description": "Purified bottled water",
+	"type": "Beverages",
+	"qty": 250,
+        "price": "$1.49",
+        "unit": "per bottle",
+        "image": "images/beverages/water.jpg"
+      },
+      {
+	"name": "Soft Drinks",
+        "description": "Assorted soft drinks",
+	"type": "Beverages",
+	"qty": 300,
+        "price": "$1.99",
+        "unit": "per can",
+        "image": "images/beverages/soft_drinks.jpg"
+      },
+      {
+	"name": "Juice",
+        "description": "Freshly squeezed fruit juice",
+	"type": "Beverages",
+	"qty": 120,
+        "price": "$3.49",
+        "unit": "per bottle",
+        "image": "images/beverages/juice.jpg"
+      },
+      {
+	"name": "Coffee",
+        "description": "Ground coffee for brewing",
+	"type": "Beverages",
+	"qty": 200,
+        "price": "$6.99",
+        "unit": "per bag",
+        "image": "images/beverages/coffee.jpg"
+      },
+      {
+	"name": "Tea",
+        "description": "Assorted tea blends",
+	"type": "Beverages",
+	"qty": 100,
+        "price": "$4.99",
+        "unit": "per box",
+        "image": "images/beverages/tea.jpg"
+      },
+      {
+	"name": "Cereal",
+        "description": "Assorted breakfast cereal",
+	"type": "Breakfast Foods",
+	"qty": 90,
+        "price": "$3.49",
+        "unit": "per box",
+        "image": "images/breakfasts/cereal.jpg"
+      },
+      {
+	"name": "Oatmeal",
+        "description": "Instant oatmeal packs",
+	"type": "Breakfast Foods",
+	"qty": 50,
+        "price": "$2.99",
+        "unit": "per box",
+        "image": "images/breakfasts/oatmeal.jpg"
+      },
+      {
+	"name": "Granola",
+        "description": "Healthy granola mix",
+	"type": "Breakfast Foods",
+	"qty": 75,
+        "price": "$4.99",
+        "unit": "per bag",
+        "image": "images/breakfasts/granola.jpg"
+      },
+      {
+	"name": "Pancake Mix",
+        "description": "Classic pancake mix",
+	"type": "Breakfast Foods",
+	"qty": 80,
+        "price": "$3.79",
+        "unit": "per box",
+        "image": "images/breakfasts/pancake_mix.jpg"
+      },
+      {
+	"name": "Paper Towels",
+        "description": "Absorbent paper towels",
+	"type": "Cleaning Supplies",
+	"qty": 300,
+        "price": "$2.99",
+        "unit": "per roll",
+        "image": "images/cleaning/paper_towels.jpg"
+      },
+      {
+	"name": "Dish Soap",
+        "description": "Dishwashing liquid soap",
+	"type": "Cleaning Supplies",
+	"qty": 100,
+        "price": "$1.79",
+        "unit": "per bottle",
+        "image": "images/cleaning/dish_soap.jpg"
+      },
+      {
+	"name": "Laundry Detergent",
+        "description": "High-efficiency laundry detergent",
+	"type": "Cleaning Supplies",
+	"qty": 100,
+        "price": "$5.99",
+        "unit": "per bottle",
+        "image": "images/cleaning/laundry_detergent.jpg"
+      },
+      {
+	"name": "All-Purpose Cleaner",
+        "description": "Versatile all-purpose cleaner",
+	"type": "Cleaning Supplies",
+	"qty": 50,
+        "price": "$3.49",
+        "unit": "per bottle",
+        "image": "images/cleaning/all_purpose_cleaner.jpg"
+      },
+      {
+	"name": "Ketchup",
+        "description": "Classic tomato ketchup",
+	"type": "Condiments",
+	"qty": 45,
+        "price": "$1.99",
+        "unit": "per bottle",
+        "image": "images/condiments/ketchup.jpg"
+      },
+      {
+	"name": "Mustard",
+        "description": "Yellow mustard",
+	"type": "Condiments",
+	"qty": 50,
+        "price": "$1.49",
+        "unit": "per bottle",
+        "image": "images/condiments/mustard.jpg"
+      },
+      {
+	"name": "Mayonnaise",
+        "description": "Creamy mayonnaise",
+	"type": "Condiments",
+	"qty": 70,
+        "price": "$2.49",
+        "unit": "per jar",
+        "image": "images/condiments/mayonnaise.jpg"
+      },
+      {
+	"name": "Salad Dressings",
+        "description": "Assorted salad dressings",
+	"type": "Condiments",
+	"qty": 65,
+        "price": "$3.99",
+        "unit": "per bottle",
+        "image": "images/condiments/salad_dressings.jpg"
+      },
+      {
+	"name": "Milk",
+        "description": "Fresh whole milk",
+	"type": "Dairy",
+	"qty": 35,
+        "price": "$2.99",
+        "unit": "per gallon",
+        "image": "images/dairy/milk.jpg"
+      },
+      {
+	"name": "Cheese",
+        "description": "Sharp cheddar cheese",
+	"qty": 45,
+	"type": "Dairy",
+        "price": "$4.99",
+        "unit": "per pound",
+        "image": "images/dairy/cheese.jpg"
+      },
+      {
+	"name": "Yogurt",
+        "description": "Creamy Greek yogurt",
+	"type": "Dairy",
+	"qty": 100,
+        "price": "$1.99",
+        "unit": "per container",
+        "image": "images/dairy/yogurt.jpg"
+      },
+      {
+	"name": "Eggs",
+        "description": "Large brown eggs",
+	"type": "Dairy",
+	"qty": 50,
+        "price": "$3.49",
+        "unit": "per dozen",
+        "image": "images/dairy/eggs.jpg"
+      },
+      {
+	"name": "Beef",
+        "description": "Fresh beef for various recipes",
+	"type": "Meat and Seafood",
+	"qty": 25,
+        "price": "$7.99",
+        "unit": "per pound",
+        "image": "images/meat/beef.jpg"
+      },
+      {
+	"name": "Chicken",
+        "description": "Boneless, skinless chicken meat",
+	"type": "Meat and Seafood",
+	"qty": 25,
+        "price": "$5.99",
+        "unit": "per pound",
+        "image": "images/meat/chicken.jpg"
+      },
+      {
+	"name": "Fish",
+        "description": "Assorted fresh fish",
+	"type": "Meat and Seafood",
+	"qty": 50,
+        "price": "$10.99",
+        "unit": "per pound",
+        "image": "images/meat/fish.jpg"
+      },
+      {
+	"name": "Pork",
+        "description": "Tender pork cuts",
+	"type": "Meat and Seafood",
+	"qty": 35,
+        "price": "$6.99",
+        "unit": "per pound",
+        "image": "images/meat/pork.jpg"
+      },
+      {
+	"name": "Pasta",
+        "description": "Assorted pasta varieties",
+	"type": "Pasta and Grains",
+	"qty": 100,
+        "price": "$1.99",
+        "unit": "per package",
+        "image": "images/pasta&grains/pasta.jpg"
+      },
+      {
+	"name": "Rice",
+        "description": "Long-grain white rice",
+	"type": "Pasta and Grains",
+	"qty": 150,
+        "price": "$2.49",
+        "unit": "per pound",
+        "image": "images/pasta&grains/rice.jpg"
+      },
+      {
+	"name": "Quinoa",
+        "description": "Organic quinoa",
+	"type": "Pasta and Grains",
+	"qty": 50,
+        "price": "$4.99",
+        "unit": "per bag",
+        "image": "images/pasta&grains/quinoa.jpg"
+      },
+      {
+	"name": "Lentils",
+        "description": "Green lentils",
+	"type": "Pasta and Grains",
+	"qty": 75,
+        "price": "$3.99",
+        "unit": "per pound",
+        "image": "images/pasta&grains/lentils.jpg"
+      },
+      {
+	"name": "Shampoo",
+        "description": "Moisturizing shampoo",	
+	"type": "Personal Care",
+	"qty": 65,
+        "price": "$4.99",
+        "unit": "per bottle",
+        "image": "images/personalcare/shampoo.jpg"
+      },
+      {
+	"name": "Toothpaste",
+        "description": "Fluoride toothpaste",
+	"type": "Personal Care",
+	"qty": 200,
+        "price": "$2.49",
+        "unit": "per tube",
+        "image": "images/personalcare/toothpaste.jpg"
+      },
+      {
+	"name": "Soap",
+        "description": "Gentle cleansing bar soap",
+	"type": "Personal Care",
+	"qty": 150,
+        "price": "$1.99",
+        "unit": "per bar",
+        "image": "images/personalcare/soap.jpg"
+      },
+      {
+	"name": "Deodorant",
+        "description": "Long-lasting deodorant",
+	"type": "Personal Care",
+	"qty": 150,
+        "price": "$3.49",
+        "unit": "per stick",
+        "image": "images/personalcare/deodorant.jpg"
+      },
+      {
+	"name": "Apples",
+        "description": "Fresh and crisp apples",
+	"type": "Produce",
+	"qty": 30,
+        "price": "$1.99",
+        "unit": "per pound",
+        "image": "images/produce/apples.jpg"
+      },
+      {
+	"name": "Oranges",
+        "description": "Juicy and sweet oranges",
+	"type": "Produce",
+	"qty": 45,
+        "price": "$2.49",
+        "unit": "per pound",
+        "image": "images/produce/oranges.jpg"
+      },
+      {
+	"name": "Bananas",
+        "description": "Ripe and sweet bananas",
+	"type": "Produce",
+	"qty": 50,
+        "price": "$0.79",
+        "unit": "per pound",
+        "image": "images/produce/bananas.jpg"
+      },
+      {
+	"name": "Cabbage",
+        "description": "Fresh and crunchy cabbage",
+	"type": "Produce",
+	"qty": 25,
+        "price": "$1.49",
+        "unit": "per head",
+        "image": "images/produce/cabbage.jpg"
+      },
+      {
+	"name": "Carrots",
+        "description": "Organic carrots",
+	"type": "Produce",
+	"qty": 45,
+        "price": "$2.49",
+        "unit": "per bag",
+        "image": "images/produce/carrots.jpg"
+      },
+      {
+	"name": "Onions",
+        "description": "Yellow onions for cooking",
+	"type": "Produce",
+	"qty": 50,
+        "price": "$1.29",
+        "unit": "per pound",
+        "image": "images/produce/onions.jpg"
+      },
+      {
+	"name": "Potatoes",
+        "description": "Russet potatoes",
+	"type": "Produce",
+	"qty": 50,
+        "price": "$1.99",
+        "unit": "per pound",
+        "image": "images/produce/potatoes.jpg"
+      },
+      {
+	"name": "Tomatoes",
+        "description": "Plump and ripe tomatoes",
+	"type": "Produce",
+	"qty": 45,
+        "price": "$2.99",
+        "unit": "per pound",
+        "image": "images/produce/tomatoes.jpg"
+      },
+      {
+	"name": "Spinach",
+        "description": "Fresh and nutritious spinach",
+	"type": "Produce",
+	"qty": 65,
+        "price": "$3.99",
+        "unit": "per bunch",
+        "image": "images/produce/spinach.jpg"
+      },
+      {
+	"name": "Cilantro",
+        "description": "Fresh and fragrant cilantro",
+	"type": "Produce",
+	"qty": 65,
+        "price": "$1.29",
+        "unit": "per bunch",
+        "image": "images/produce/cilantro.jpg"
+      },
+      {
+	"name": "Chips",
+        "description": "Assorted potato chips",
+	"type": "Snacks",
+	"qty": 200,
+        "price": "$2.99",
+        "unit": "per bag",
+        "image": "images/snacks/chips.jpg"
+      },
+      {
+	"name": "Crackers",
+        "description": "Variety of crackers",
+	"type": "Snacks",
+	"qty": 80,
+        "price": "$1.99",
+        "unit": "per box",
+        "image": "images/snacks/crackers.jpg"
+      },
+      {
+	"name": "Nuts",
+        "description": "Roasted and salted mixed nuts",
+	"type": "Snacks",
+	"qty": 75,
+        "price": "$4.49",
+        "unit": "per bag",
+        "image": "images/snacks/nuts.jpg"
+      },
+      {
+	"name": "Popcorn",
+        "description": "Classic buttered popcorn",
+	"type": "Snacks",
+	"qty": 150,
+        "price": "$3.99",
+        "unit": "per bag",
+        "image": "images/snacks/popcorn.jpg"
+      }
+    ]
+  

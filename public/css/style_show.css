@@ -1,0 +1,19 @@
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.itemdetails {
+    padding-top: 10px;
+}
+
+.admin {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+div div {
+    padding-top: 5px;
+}

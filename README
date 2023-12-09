@@ -1,0 +1,7 @@
+Notes:
+
+-- The MongoDB database name is Grocery and the collection name is items. Another collection called accounts gets created in Grocery as users register to the website.
+
+-- The grocery.json file must be imported into the items collection. 
+
+-- The user registered with username "admin" is the admin. They can create, update, and delete items. 
